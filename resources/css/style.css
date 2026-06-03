@@ -32,7 +32,7 @@ h1{
     font-family: lilita one;
 }
 header{
-    background-image: url(resources/img/header-back.jpg);
+    background-image:url(resources/img/header-back.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
