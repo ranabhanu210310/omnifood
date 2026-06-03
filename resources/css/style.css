@@ -32,7 +32,7 @@ h1{
     font-family: lilita one;
 }
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 100%), url('your-background-image.jpg'),url(css/img/header-back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 100%), url('your-background-image.jpg'),url(resources/img/header-back.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -315,7 +315,7 @@ a:active{
  .Customer-Testimonials{
      margin-top: -40px;
      color: #ffffff;
-     background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(css/img/cust-back.jpg);
+     background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(resources/img/cust-back.jpg);
      background-position: center;
      background-size: cover;
      background-attachment: fixed;
