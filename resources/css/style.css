@@ -1,0 +1,469 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #ffffff;
+    color: #555;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth; */
+    
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 240%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    font-family: lilita one;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 100%), url('your-background-image.jpg'), url(/resources/css/img/Gemini_Generated_Image_ax0kmeax0kmeax0k.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.hero-text-box{
+    position:absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+.btn:link,
+.btn:visited,input[type=submit]
+{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    /* font-weight: 300; */
+    font-family:lilita one;
+    border-radius: 200px;
+    transition: all 0.2s ease;
+}
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    margin-right: 10px;
+     
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid orange;
+    color: orange;
+   
+}
+.btn:hover,
+.btn:active{
+    background-color: darkorange;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: darkorange;
+    color: whitesmoke;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active{
+     background-color: darkorange;
+}
+
+.logo{
+    height: auto;
+    width: 105px;
+    margin: 20px;
+    /* float: left; */
+    background-color: transparent;
+    border-radius:50%;
+    
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    list-style: none;
+     }
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    font-family:fredoka;
+    color: white;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-left: 5px;
+    border-bottom: 2px solid transparent;
+    padding: 3.5px 0px;
+    transition: border-bottom 0.2s ease ;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid darkorange;
+}
+
+.col{
+
+    padding:1%;
+    h3{
+    font-family: lilita one;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size:110%;
+    margin-bottom:15px ;
+    }
+    p{
+        font-family: fredoka;
+        /* text-align: justify; */
+        font-size: 90%;
+        line-height:145%;
+    }
+}
+
+h2{
+font-family: lilita one;
+font-weight: 300;
+font-size: 180%;
+word-spacing: 2px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 30px;
+letter-spacing: 1px;
+clear: both;
+/* margin-top: 60px; */
+}
+h2::after{
+    display: block;
+    height: 3px;
+    background-color: darkorange;
+    content:" ";
+    width: 150px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.long-copy{
+    font-family: fredoka;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+
+}
+section{
+    padding: 80px 0px;
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: orange;
+    margin-bottom: 10px;
+}
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+    /* margin-top: 205px; */
+    clear: both;
+}
+.meal-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+.meal-photo{
+    width: 100%;
+    margin: 0px;
+   overflow: hidden;
+   background-color: black;
+     
+}
+  .meal-photo img{
+ width: 100%;
+ height: auto;
+ transform: scale(1.15);
+ opacity: 0.5;
+ transition: all 0.2s ease;
+  }
+.meal-photo img:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.clear-fix{zoom:1}
+.clear-fix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
+.section-meals{
+    padding-bottom: 0px;
+    
+}
+.work-step{
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+.steps-box:first-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child{
+  padding-left: 3%;
+  margin-top: 60px;
+}
+.app-screen{
+    width: 40%;
+    border-radius: 11%;
+    /* box-shadow: 5px 0px 7px black; */
+}
+.work-step div{
+    color: orange;
+    border: 4px solid orange;
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    margin-right: 25px;
+    font-size: 150;
+
+}
+.work-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+.section-steps{
+background-color:whitesmoke;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+     
+}
+.city-feature{
+    margin-bottom: 5px;
+    clear: both;
+}
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+a:link,
+a:visited{
+color: orange;
+text-decoration: none;
+border-bottom: 1px solid orange;
+padding-bottom: 1px;
+transition: all 0.5s ease;
+}
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+
+}
+ 
+ .Customer-Testimonials{
+     margin-top: -40px;
+     color: #ffffff;
+     background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(/resources/css/img/Gemini_Generated_Image_ahv5tzahv5tzahv5.png);
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     }
+     blockquote{
+        padding: 2%;
+        font-style: italic;
+        line-height: 145%;
+        margin-top: 40px;
+        position: relative;
+     }
+     cite{
+        font-size: 90%;
+        display: block;
+        margin-top: 25px;
+     }
+     cite img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-right: 10px;
+        vertical-align: middle;
+
+     }
+     blockquote::after{
+        content: '\201C';
+        font-size: 500%;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: -3px;
+
+     }
+     .section-plans{
+        background-color: whitesmoke;
+     }
+ .plan-box{
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+ }
+ .plan-box div{
+    padding: 15px;
+    border: 1px solid #e8e8e8;
+ }
+  .plan-box .plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: orange;
+ }
+ /* here i learned 1 rule like 11 power wins having class and then html tag will win see 135 line nested para in class */
+
+ /* thats why using two classes to cancel out it */
+ .plan-box .plan-price-meal {
+    font-size: 80%;
+ }
+
+ .plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+ }
+ .plan-box ul{
+    list-style: none;
+ }
+ .plan-box ul li{
+    padding: 5px;
+ }
+ .plan-box div:last-child{
+    border: 0;
+    text-align: center;
+ }
+ .plan-box div:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+background-color: whitesmoke;
+     
+ }
+ .contact-form{
+    width: 60%;
+    margin: 0 auto;
+ }
+
+ input[type=text],
+ input[type=email] ,select,
+  textarea{
+width: 100%;
+padding: 7px;
+border-radius: 3px;
+border: 1px solid #ccc;
+ }
+ textarea{
+    height: 100%;
+ }
+ input[type=checkbox]{
+    margin: 10px 5px 10px;
+ }
+ footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 50px;
+  
+ }
+ .footer-nav{
+    list-style: none;
+    float: left;
+ }
+ .social-links{
+list-style: none;
+float: right;
+ }
+ .footer-nav li,
+ .social-links li{
+    display: inline-block;
+    margin-right: 20px;
+ }
+ .footer-nav li a:link,
+ .footer-nav li a:visited,
+ .social-links li a:link,
+ .social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+ }
+ .footer-nav li a:hover,
+ .footer-nav li a:active{
+    color: #ddd;
+ }
+ footer p{
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+ }
+ .fb:hover{
+    color: #3b5998;
+ }
+ .twitter:hover{
+    color: #00aced;
+ }
+ .google:hover{
+    color: #dd4b39;
+ }
+ .insta:hover{
+    color: #517fa4;
+ }
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 180%;
+ }
