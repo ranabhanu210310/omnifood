@@ -315,7 +315,7 @@ a:active{
  .Customer-Testimonials{
      margin-top: -40px;
      color: #ffffff;
-     background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('images/cust-back.jpg');
+     background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(images/cust-back.jpg);
      background-position: center;
      background-size: cover;
      background-attachment: fixed;
